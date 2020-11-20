@@ -5,3 +5,18 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+puts "Creating Delicious Ingredients.....mmmmmmm"
+
+url = "https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list"
+
+
+drinks_list = HTTParty.get(url)
+
+ingredients_list = drinks_list["drinks"]
+
+ingredients_list.each do |ingredient|
+  Ingredient.create!(name: ingredient["strIngredient1"])
+end
+
+puts "Created :)"
