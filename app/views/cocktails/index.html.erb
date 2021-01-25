@@ -1,10 +1,19 @@
-<h1>My Cocktails</h1>
-<ul>
-<% @cocktails.each do |cocktail| %>
-<li><%= link_to "#{cocktail.name.capitalize}", cocktail_path(cocktail) %></li>
-<%= cl_image_tag cocktail.photo.key, height: 300, width: 400, crop: :fill %>
-<% end %>
-</ul>
-<%=link_to "Create New Cocktail", new_cocktail_path %>
 
+<div class="banner">
+  <h1>Sassy Cocktails</h1>
+  <h4>sass up you life with a drink or two...</h4>
+</div>
+<div class="custom-shape-divider-bottom-1611347868">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+</div>
+<div class="container">
+  <ul>
+    <% @cocktails.each do |cocktail| %>
+      <li><%= link_to "#{cocktail.name.capitalize}", cocktail_path(cocktail) %></li>
+    <%#=cl_image_tag cocktail.photo.key, height: 300, width: 400, crop: :fill %>
+    <% end %>
+  </ul>
+  </div>
 
