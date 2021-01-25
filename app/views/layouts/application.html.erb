@@ -15,7 +15,9 @@
 
   <body>
     <div class ="navbar">
-      <%= image_tag "logo.png" %>
+      <%= link_to cocktails_path, class: "navbar-brand" do %>
+    <%= image_tag "logo.png" %>
+    <% end %>
        <%=link_to "Create Cocktail", new_cocktail_path, :class => "btn btm-primary" %> </div>
     <%= yield %>
   </body>

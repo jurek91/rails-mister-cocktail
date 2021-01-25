@@ -1,0 +1,22 @@
+.cocktail-page-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fdde86;
+  max-width: 100%;
+  padding-left: 100px;
+  background-image: linear-gradient(#fdde86, #fdc593);
+  img {
+    height: 350px;
+    width: 300px;
+    border: 2px solid black;
+    margin-right: 40px;
+
+  }
+}
+
+
+
+.ingredients-container {
+  max-width: 50%;
+}

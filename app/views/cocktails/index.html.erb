@@ -1,7 +1,13 @@
 
 <div class="banner">
+  <div class="banner-text">
   <h1>Sassy Cocktails</h1>
-  <h4>sass up you life with a drink or two...</h4>
+  <h4>sass up your life with a drink or two...</h4>
+</div>
+  <div class="img-banner">
+    <%= image_tag "logo-big.png" %>
+  </div>
+
 </div>
 <div class="custom-shape-divider-bottom-1611347868">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -10,10 +16,21 @@
 </div>
 <div class="container">
   <ul>
+     <div class="cards">
     <% @cocktails.each do |cocktail| %>
-      <li><%= link_to "#{cocktail.name.capitalize}", cocktail_path(cocktail) %></li>
-    <%#=cl_image_tag cocktail.photo.key, height: 300, width: 400, crop: :fill %>
+      <div class= "card">
+        <div class="card-img">
+         <% if cocktail.photo.attached? %>
+    <%= cl_image_tag cocktail.photo.key%>
+    <%end %>
+       <%#=cl_image_tag cocktail.photo.key, height: 300, width: 400, crop: :fill %>
+        </div>
+        <div class="card-cocktail-name">
+        <li><%= link_to "#{cocktail.name.capitalize}", cocktail_path(cocktail) %></li>
+        </div>
+      </div>
     <% end %>
-  </ul>
-  </div>
+    </ul>
+    </div>
+</div>
 

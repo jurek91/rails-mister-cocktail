@@ -1,0 +1,39 @@
+.ingredients-buttons {
+  display: flex;
+  justify-content: space-between;
+  .ingredients {
+    max-width: 50%;
+  }
+}
+
+.ingredients-container h1 {
+  font-family: "Yesteryear", cursive;
+  font-size: 50px;
+  color: #f49828;
+}
+
+.chosen-ingredients {
+  margin-left: 50px;
+}
+
+.title-pic {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-size: 100px;
+    font-family: "Yesteryear", cursive;
+    margin-left: 0px;
+    color: #f49828;
+    text-align: left;
+    margin-top: 40px;
+  }
+}
+
+.ingredients-container {
+  margin-right: 100px;
+  h2 {
+    font-family: "Yesteryear", cursive;
+    color: #f49828;
+  }
+}
+
