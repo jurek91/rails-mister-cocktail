@@ -37,3 +37,14 @@
   }
 }
 
+.ingredient-trash {
+  display: flex;
+  i {
+    padding-left: 5px;
+    color: #60b0a6;
+  }
+}
+
+.add-ingredient-list {
+  margin-top: 50px;
+}
