@@ -1,8 +1,12 @@
 <!-- <div class="container"> -->
   <div class= "cocktail-page-header">
     <div class="title-pic">
-    <h1><%= @cocktail.name %></h1>
-    <%= cl_image_tag @cocktail.photo.key if @cocktail.photo.attached?%>
+      <h1><%= @cocktail.name %></h1>
+      <% if @cocktail.photo.attached?%> %>
+        <%= cl_image_tag @cocktail.photo.key%>
+      <% else %>
+        <%= image_tag "cocktail.png" %>
+      <% end %>
     </div>
     <div class="ingredients-container">
       <h1>Ingredients:</h1>
