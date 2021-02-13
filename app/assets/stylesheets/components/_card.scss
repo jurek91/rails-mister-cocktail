@@ -1,37 +1,43 @@
 .card {
-  width: 300px;
-  height: 350px;
+  width: 230px;
+  height: 230px;
   display: flex;
-  justify-content: space-between;
-  border: 3px solid black;
-  margin-bottom: 80px;
-  box-shadow: 8px 8px 72px -7px rgba(0,0,0,0.76);
-
-
-  .card-img {
-    background-color: white;
-    height: 85%;
-  }
-}
-
-.card .card-cocktail-name {
-  background-color: #f7ae0a;
-  // color: #58017f;
-  height: 15%;
   text-align: center;
+  justify-content: center;
+  margin-bottom: 80px;
+  opacity: 0.8;
+  display: cover;
 }
 
-.card-cocktail-name a {
-  color: #734114;
-  font-family: "Yesteryear", cursive;
-  font-size: 34px;
-
-}
 ul {
  list-style-type: none;
 }
 
-.card-img img {
+.card img {
   height: 100%;
   width: 100%;
+  position: absolute;
 }
+
+.card:hover {
+  opacity: 1.0;
+}
+
+.card li {
+  position: relative;
+  font-size: 30px;
+}
+
+
+.card a {
+  color: #fafafa;
+  text-shadow: 1px 1px black;
+  font-family: 'Cantarell', sans-serif;
+  text-transform: uppercase;
+}
+
+.card a:hover {
+  text-shadow: 2px 2px black;
+  text-decoration: none;
+  color: #fff;
+};

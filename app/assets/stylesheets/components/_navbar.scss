@@ -1,15 +1,19 @@
 .navbar {
-  justify-content: space-between;
-  background: #FEEFC5;
-  height: 100px;
-  img {
-    height: 75px;
-    margin-left: 50px;
+  background-color: white;
+  height: 80px;
+  font-family: 'Cantarell', sans-serif;
+  text-transform: uppercase;
+  position: fixed-top;
+  // top: 0;
+  // z-index: 100;
+
+  h3 {
+    font-size: 40px;
+    color: #a5a5a5;
   }
 }
 
-.navbar .btn {
-  margin-right: 75px;
-  background-color: #60b0a6;
-  color: #58017f;
+
+.navbar .header-title{
+  text-align: center;
 }

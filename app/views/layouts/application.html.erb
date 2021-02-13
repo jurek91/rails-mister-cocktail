@@ -9,16 +9,15 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Yesteryear&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <div class ="navbar">
-      <%= link_to cocktails_path, class: "navbar-brand" do %>
-    <%= image_tag "logo.png" %>
-    <% end %>
-       <%=link_to "Create Cocktail", new_cocktail_path, :class => "btn btm-primary" %> </div>
     <%= yield %>
   </body>
 </html>
+
+
