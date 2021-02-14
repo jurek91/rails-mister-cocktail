@@ -42,8 +42,11 @@
 }
 
 .ingredient-and-delete {
+  // display: flex;
+  justify-content: space-evenly;
   display: flex;
-  justify-content: space-between;
+  width: auto;
+  margin: -5px;
 }
 
 .ingredients-container {
@@ -54,3 +57,26 @@
 }
 
 
+.ingredient-card {
+  width: 500px;
+  text-align: center;
+  font-family: 'Cantarell', sans-serif;
+  text-transform: uppercase;
+}
+
+.ingredient-list {
+  display: inline-block;
+}
+
+.delete-cocktail-icon {
+    padding-top: 6px;
+    padding-left: 2px;
+    font-size: 10px;
+}
+
+
+.ingr-list {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 40px;
+}
