@@ -1,13 +1,22 @@
 <!-- <div class="col-lg-6 col-12" style="margin-top:20px"> -->
-  <div class="create-form">
-    <div class="container py-3">
-  <h1>Create a Cocktail</h1>
-  <%= simple_form_for(@cocktail) do |f| %>
-    <%= f.input :name %>
-    <%= f.input :photo, as: :file %>
-    <%= f.submit %>
-  <% end %>
-  <%= link_to "Back to Cocktails", cocktails_path %>
-</div>
+  <nav class ="navbar mb-0">
+    <div class = "nav-btn">
+    <%= link_to "Go Back", cocktails_path%>
   </div>
-<!-- </div> -->
+      <div class= "header-title">
+      <h3>Sassy Cocktails</h3>
+    </div>
+    <div class="none">
+    </div>
+       </nav>
+
+  <div class="form-container">
+    <h1>Create a Cocktail</h1>
+    <%= simple_form_for(@cocktail) do |f| %>
+
+      <%= f.input :name %>
+      <%= f.input :photo, as: :file %>
+      <%= f.submit %>
+    <% end %>
+
+  </div>

@@ -6,7 +6,7 @@
   text-transform: uppercase;
   a {
     font-size: 45px;
-    color: #f49828;
+    color: grey;
     text-decoration: none;
   }
 }
@@ -14,3 +14,7 @@
 .footer-link {
   padding-top: 3px;
 }
+
+.footer a:hover {
+  text-decoration: none;
+};
