@@ -8,8 +8,8 @@
 // }
 
 
-// media(max-width: 768px) {
-//   .cards {
-//     grid-template-columns: 1fr
-//   }
-// }
+@media(max-width: 768px) {
+  .carousel-item img {
+    height: 50vh;
+  }
+}
