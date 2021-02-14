@@ -1,61 +1,57 @@
-.ingredients-buttons {
-  display: flex;
-  justify-content: space-between;
-  .ingredients {
-    max-width: 50%;
-  }
-}
-
-.ingredients-container h1 {
-  font-family: 'Cantarell', sans-serif;
-  font-size: 50px;
-  color: #f49828;
-}
-
-.chosen-ingredients {
-  margin-left: 50px;
-}
-
-.title-pic {
-  display: flex;
-  flex-direction: column;
-  h1 {
-    font-size: 100px;
-    font-family: 'Cantarell', sans-serif;
-    margin-left: 0px;
-    color: #f49828;
-    text-align: left;
-    margin-top: 40px;
-  }
-}
-
-.ingredients-container {
-  margin-right: 150px;
-  margin-top: 82px;
-  h2 {
-    font-family: 'Cantarell', sans-serif;
-    color: #f49828;
-  }
-}
-
-.ingredient-trash {
-  display: flex;
-  i {
-    padding-left: 5px;
-    color: #60b0a6;
-  }
-}
-
-// .add-ingredient-list {
-//   margin-top: 50px;
+// .ingredients-buttons {
+//   display: flex;
+//   justify-content: space-between;
+//   .ingredients {
+//     max-width: 50%;
+//   }
 // }
 
+// .ingredients-container h1 {
+//   font-family: 'Cantarell', sans-serif;
+//   font-size: 50px;
+//   color: #f49828;
+// }
 
-.img-delete-cocktail {
-  display: flex;
-  i {
-    font-size: 30px;
-    margin-top: 322px;
-    color: #60b0a6;
-  }
-}
+// .chosen-ingredients {
+//   margin-left: 50px;
+// }
+
+// .title-pic {
+//   display: flex;
+//   flex-direction: column;
+//   h1 {
+//     font-size: 100px;
+//     font-family: 'Cantarell', sans-serif;
+//     margin-left: 0px;
+//     color: #f49828;
+//     text-align: left;
+//     margin-top: 40px;
+//   }
+// }
+
+// // .ingredients-container {
+// //   margin-right: 150px;
+// //   margin-top: 82px;
+// //   h2 {
+// //     font-family: 'Cantarell', sans-serif;
+// //     color: #f49828;
+// //   }
+// // }
+
+// // .ingredient-trash {
+// //   display: flex;
+// //   i {
+// //     padding-left: 5px;
+// //     color: #60b0a6;
+// //   }
+// // }
+
+
+// .img-delete-cocktail {
+//   display: flex;
+//   i {
+//     font-size: 30px;
+//     margin-top: 322px;
+//     color: #60b0a6;
+//   }
+// }

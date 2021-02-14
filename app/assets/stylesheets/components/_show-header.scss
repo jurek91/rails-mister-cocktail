@@ -1,26 +1,3 @@
-.cocktail-page-header {
-  height: 600px;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  max-width: 100%;
-  padding-left: 100px;
-  img {
-    height: 100%;
-    width: 50%;
-    border: 1px solid black;
-    margin-right: 40px;
-
-  }
-}
-
-
-
-.ingredients-container {
-  width: 50%;
-}
-
-
 .cocktail-card {
   width: 1000px;
   height: 500px;
@@ -49,11 +26,31 @@
 
 }
 
-.name-ingredients {
+.cocktail-ingredients {
+  display: flex;
   display: inline-block;
 }
 
 .cocktail-name h1 {
   font-size: 30px;
 }
+
+.add-ingredient-list {
+    align-items: center;
+    width: 100%;
+    // padding-left: 45px;
+}
+
+.ingredient-and-delete {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ingredients-container {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+}
+
 
