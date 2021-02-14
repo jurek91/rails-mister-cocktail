@@ -1,7 +1,16 @@
 .carousel-item img {
   height: 100vh;
+  object-fit: cover;
+  align-items: center;
 }
 
 // #carouselExampleIndicators {
 //   position: absolute;
+// }
+
+
+// media(max-width: 768px) {
+//   .cards {
+//     grid-template-columns: 1fr
+//   }
 // }
