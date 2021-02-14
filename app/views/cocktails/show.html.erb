@@ -1,12 +1,16 @@
+<div class="navbar-show">
 <nav class ="navbar mb-0">
-    <!-- <div class = "new-btn">
-    <%= link_to "Create New", new_cocktail_path%>
-  </div> -->
+    <div class = "nav-btn">
+    <%= link_to "Go Back", cocktails_path%>
+  </div>
   <div class= "header-title">
     <h3>Sassy Cocktails</h3>
   </div>
+  <div class= "nav-btn">
+    <%= link_to "Delete Cocktail", cocktail_path(@cocktail), method: :delete, data: { confirm: "Are you sure you want to delete this cocktail?" } %>
+  </div>
 </nav>
-
+</div>
 <div class="container mt-5">
   <div class="cocktail-card">
     <div class="cocktail-pic">
@@ -40,53 +44,14 @@
         </div>
   </div>
 </div>
-<!--
-    <div class="title-ingredients-container">
-      <div class="cocktail-name">
-          <h1><%#= @cocktail.name %></h1>
-      </div>
-
-       <div class="cocktail-ingredients d-flex"> -->
-
-          <!-- <div class="ingredients-container"> -->
-           <!-- <h4>Ingredients</h4> -->
-          <%# @cocktail.doses.each do |dose| %>
-          <!-- <div class="ingredient-and-delete"> -->
-            <!-- <div class="all-ingrs">
-            <div class="ingredient-name"> -->
-              <!-- <h6><%#= "#{dose.ingredient.name} - #{dose.description}" %></h6> -->
-            <!-- </div>
-            <div class="delete-cocktail-icon"> -->
-              <%#= link_to dose_path(dose), method: :delete, data: { confirm: "Delete ingredient?" } do %>
-                <!-- <i class="far fa-times-circle"></i> -->
-              <%#end %>
-            <!-- </div> -->
-          <%# end %>
-        <!-- </div>
-        </div>
-
-            </div> -->
 
 
 
 
-    <!-- </div> -->
-    <!-- <div class="add-ingredient-list">
-          <h4>Add an Ingredient</h4>
-          <%#= simple_form_for [@cocktail, @dose] do |f| %>
-            <%#= f.association :ingredient%>
-            <%#= f.input :description %>
-            <%#= f.submit %>
-          <% #end %>
-        </div> -->
-<!--  </div>
-  </div> -->
-      <!--   </div>
-        </div> -->
-<!--       <%# end %>
-    </div>
-</div>
- -->
+
+
+
+
 
 
 <%#= link_to cocktail_path(@cocktail), method: :delete, data: { confirm: "Are you sure you want to delete this cocktail?" } do %>

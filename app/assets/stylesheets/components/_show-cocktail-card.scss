@@ -10,20 +10,8 @@
 
 .cocktail-pic img {
   width: 500px;
-  height: 100%;
-}
-
-
-.title-ingredients-container {
-  width: 500px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  font-family: 'Cantarell', sans-serif;
-  text-transform: uppercase;
-  color: #a78c8c;
-
+  height: 500px;
+  display: cover;
 }
 
 .cocktail-ingredients {
@@ -35,25 +23,11 @@
   font-size: 30px;
 }
 
-.add-ingredient-list {
-    align-items: center;
-    width: 100%;
-    // padding-left: 45px;
-}
-
 .ingredient-and-delete {
-  // display: flex;
   justify-content: space-evenly;
   display: flex;
   width: auto;
   margin: -5px;
-}
-
-.ingredients-container {
-  margin-top: 0px;
-  display: flex;
-  justify-content: space-between;
-  height: 150px;
 }
 
 
@@ -79,4 +53,11 @@
   padding-right: 50px;
   padding-left: 50px;
   margin-top: 40px;
+}
+
+
+*{
+padding:auto;
+margin:auto;
+text-align:centre;
 }
