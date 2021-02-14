@@ -12,10 +12,7 @@
   column-gap: 10px;
   padding-top: 50px;
   }
-  // margin-right: 90px;
-  // margin-left: 90px;
-  // padding: 20px;
-  // grid-column-gap: 50px;
+
 
 
 @media(max-width: 992px) {
@@ -24,4 +21,11 @@
   }
 }
 
+
+
+media(max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr
+  }
+}
 
