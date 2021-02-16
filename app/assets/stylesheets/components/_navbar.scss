@@ -15,7 +15,7 @@
 
 
 .header-title {
-  text-align: center;
+  // text-align: center;
 }
 
 
@@ -34,9 +34,24 @@
 }
 
 
-@media(max-width: 768px) {
+// @media(max-width: 768px) {
+//   .navbar h3 {
+//     font-size: 25px;
+//     object-fit: cover;
+//   }
+// }
+
+
+@media(max-width: 600px) {
+  .navbar {
+    height: 150px;
+    display: grid;
+    justify-content: center;
+    // display: block;
+    // align-items: center;
+  }
   .navbar h3 {
     font-size: 25px;
-    object-fit: cover;
   }
+
 }
