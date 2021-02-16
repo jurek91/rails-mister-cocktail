@@ -65,8 +65,21 @@ text-align:centre;
 @media(max-width: 500px) {
   .cocktail-card {
     width: 250px;
-    height: 500px;
-
-
+    height: 700px;
+    display: block;
+  }
+  .cocktail-pic img {
+    width: 250px;
+    height: 250px;
+  }
+  .ingredient-card {
+    width: 250px;
+    height: 450px;
+  }
+  .ingredient-card h2 {
+    font-size: 25px;
+  }
+  .ingredient-card h4 {
+    font-size: 15px;
   }
 }
