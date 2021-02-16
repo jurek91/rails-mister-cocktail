@@ -25,3 +25,18 @@
 }
 
 
+
+
+@media(max-width: 768px) {
+  .navbar {
+    height: 80px;
+  }
+}
+
+
+@media(max-width: 768px) {
+  .navbar h3 {
+    font-size: 25px;
+    object-fit: cover;
+  }
+}

@@ -18,3 +18,9 @@
 .footer a:hover {
   text-decoration: none;
 };
+
+@media(max-width: 768px) {
+  .footer a {
+    font-size: 30px;
+  }
+}
